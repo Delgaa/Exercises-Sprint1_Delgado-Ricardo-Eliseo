@@ -30,7 +30,7 @@ const $capturadorDiv = document.getElementById("contenedor")
 console.log($capturadorDiv)
 
 function tarjeta(nombres, fotos, descripciones) {
-    return `<section class = 'flex flex-col justify-around items-center shadow-xl border border-solid border-red rounded-2xl w-60 h-72'>
+    return `<section class = 'flex flex-col justify-around items-center shadow-xl border border-solid border-[rgba(0, 0, 0, 0.507)] rounded-2xl w-60 h-72'>
         <img class = ' h-32 object-contain' src = '${fotos}' alt="${nombres}">
         <h3 class = " font-bold">${nombres}</h3>
         <p class = "text-center w-11/12">${descripciones}</p>
