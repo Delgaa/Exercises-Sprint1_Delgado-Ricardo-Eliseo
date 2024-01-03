@@ -70,7 +70,6 @@ $lista.innerHTML = `<h2 class = "font-bold text-xl py-4"> Frutas Dulces </h2>`
 let crearListaDesordenada = function (listaFrutas, elemento) {
     const $crearUl = document.createElement("ul")
     $crearUl.classList.add("list-disc", "pl-9")
-    elemento.innerHTML += ""
     const fragment = document.createDocumentFragment()
     for (const listaFruta of listaFrutas) {
         if (listaFruta.esDulce) {
